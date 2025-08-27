@@ -1,0 +1,3 @@
+# data-cleaning-and-predictive-model
+
+This Python project cleans a dataset and trains a predictive model focused on a single target metric. The pipeline fixes missing values, standardizes types, handles outliers, encodes categorical features, and scales numeric features. It then explores relationships between variables and the target through simple EDA, selects relevant features, and trains a supervised model with cross validation, reporting metrics such as MAE and RMSE. Real data is kept out of the repository under data/raw locally, and a small sample in data/samples/sample.csv lets anyone reproduce the workflow end to end.
